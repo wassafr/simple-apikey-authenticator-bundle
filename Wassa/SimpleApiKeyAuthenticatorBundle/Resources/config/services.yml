@@ -1,0 +1,6 @@
+services:
+    wassa_simple_api_key_authenticator.listener:
+        class: Wassa\SimpleApiKeyAuthenticatorBundle\Listener\ApiKeyAuthenticatorListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.request }
+        arguments: [@service_container]

@@ -1,0 +1,18 @@
+{
+    "name": "wassafr/simple-apikey-authenticator-bundle",
+    "type": "symfony-bundle",
+    "description": "Wassa Simple API Key Authenticator Bundle",
+    "keywords": ["symfony", "api", "key", "authenticator", "authentication"],
+    "license": "proprietary",
+    "require": {
+        "php": "~5.4|~7.0"
+    },
+    "autoload": {
+        "psr-4": { "Wassa\\SimpleApiKeyAuthenticatorBundle\\": "Wassa/SimpleApiKeyAuthenticatorBundle/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
